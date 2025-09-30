@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perpustakaan Indah</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f4f7fb; color: #333; }
+    header { background: linear-gradient(135deg, #2a5298, #1e3c72); color: white; padding: 40px 20px; text-align: center; }
+    header h1 { margin: 0; font-size: 2.5rem; }
+    nav { background: white; text-align: center; padding: 15px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    nav a { margin: 0 15px; text-decoration: none; color: #1e3c72; font-weight: bold; }
+    nav a:hover { color: #2a5298; }
+    .hero { background: url('https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1600&q=80') no-repeat center/cover; height: 300px; display: flex; justify-content: center; align-items: center; color: white; text-shadow: 2px 2px 5px rgba(0,0,0,0.6); font-size: 2rem; }
+    section { padding: 40px 20px; max-width: 1000px; margin: auto; }
+    h2 { color: #1e3c72; margin-bottom: 15px; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; }
+    .card { background: white; border-radius: 10px; padding: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); text-align: center; }
+    .card img { width: 100%; border-radius: 10px; }
+    table { width: 100%; border-collapse: collapse; margin-top: 20px; background: white; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    th, td { border: 1px solid #ccc; padding: 10px; text-align: center; }
+    th { background: #1e3c72; color: white; }
+    form input, form textarea, form button { margin: 8px 0; padding: 10px; width: 100%; border-radius: 5px; border: 1px solid #ccc; }
+    form button { background: #1e3c72; color: white; border: none; cursor: pointer; font-weight: bold; }
+    form button:hover { background: #2a5298; }
+    footer { background: #1e3c72; color: white; text-align: center; padding: 20px; margin-top: 40px; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>📚 Perpustakaan Indah</h1>
+    <p>Tempat Ilmu dan Inspirasi</p>
+  </header>
+
+  <nav>
+    <a href="#">Beranda</a>
+    <a href="#">Koleksi</a>
+    <a href="#">E-Book</a>
+    <a href="#">Tentang</a>
+    <a href="#">Kontak</a>
+  </nav>
+
+  <div class="hero">
+    Selamat Datang di Perpustakaan Indah ✨
+  </div>
+
+  <section>
+    <h2>📖 Koleksi Unggulan</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="https://covers.openlibrary.org/b/id/8231856-L.jpg" alt="Novel">
+        <h3>Novel</h3>
+        <p>Kumpulan cerita inspiratif yang memikat hati.</p>
+      </div>
+      <div class="card">
+        <img src="https://covers.openlibrary.org/b/id/10594763-L.jpg" alt="Buku Pelajaran">
+        <h3>Buku Pelajaran</h3>
+        <p>Materi lengkap mendukung pembelajaran siswa.</p>
+      </div>
+      <div class="card">
+        <img src="https://covers.openlibrary.org/b/id/240727-L.jpg" alt="Ensiklopedia">
+        <h3>Ensiklopedia</h3>
+        <p>Pengetahuan luas dalam satu genggaman.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>📚 Daftar Buku Populer</h2>
+    <table>
+      <tr>
+        <th>No</th>
+        <th>Judul</th>
+        <th>Pengarang</th>
+        <th>Kategori</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Laskar Pelangi</td>
+        <td>Andrea Hirata</td>
+        <td>Novel</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Fisika Dasar</td>
+        <td>Halliday & Resnick</td>
+        <td>Pelajaran</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Kamus Bahasa Indonesia</td>
+        <td>Balai Pustaka</td>
+        <td>Referensi</td>
+      </tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>📩 Hubungi Kami</h2>
+    <form>
+      <input type="text" placeholder="Nama Anda">
+      <input type="email" placeholder="Email Anda">
+      <textarea rows="4" placeholder="Pesan Anda..."></textarea>
+      <button type="submit">Kirim Pesan</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Perpustakaan Indah | Dibuat dengan ❤️ untuk pembaca</p>
+  </footer>
+
+</body>
+</html>
